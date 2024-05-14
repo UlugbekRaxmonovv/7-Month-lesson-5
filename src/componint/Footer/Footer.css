@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sedan:ital@0;1&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+
+*{
+    list-style: none;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
+footer{
+    background: #EDF2F4;
+    margin-top: 120px;
+
+}
+.footir-all{
+    display: flex;
+    align-items: self-start;
+    justify-content: center;
+    padding: 120px 0;
+    gap: 180px;
+    flex-wrap: wrap;
+}
+.footir-alt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -20px;
+}
+.footir-alt >img{
+    max-width: 101px;
+    height: 101px;
+    width: 100%;
+    
+}
+.footir-alt >p{
+    max-width: 186px;
+    height: 70px;
+    width: 100%;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    text-align: justified;
+    color: #000000;
+        
+}
+.phon{
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    gap: 10px;
+}
+.phon-1 >svg{
+    width: 40px;
+    height: 40px;
+}
+.phon-1{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000000;
+    margin-top: -10px;
+    
+}
+.ul_link >h1{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    text-align: left;
+    color: #000000;
+    margin-top: 10px;
+    
+}
+.ul_link >li a{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.36px;
+    text-align: left;
+    color: #414141;
+    line-height: 42px;
+
+}
+ul li{
+    margin-top: 5px;
+}

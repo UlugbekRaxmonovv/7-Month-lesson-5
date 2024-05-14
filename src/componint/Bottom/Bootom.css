@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sedan:ital@0;1&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+}
+#box{
+    margin-top: 100px;
+}
+.bootom_row{
+    width: 23px;
+    height: 79px;
+    border-radius: 10px;
+    background: #FF0404;
+    font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 21.78px;
+text-align: center;
+color: #000000;
+
+}
+.bootom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bootom >h1{
+    max-width: 908px;
+    width: 100%;
+    height: 189px;
+    opacity: 0px;
+    font-family: Lalezar;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+    text-align: center;
+    color: #D62828;
+    margin-top: 30px;
+        
+}
+.bootom >p{
+    max-width: 1254px;
+    height: 56px;
+    width: 100%;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.36px;
+text-align: left;
+outline-color: #000000;
+margin-top: 80px;
+    
+}
+.imagi >img{
+    max-width: 1236px;
+    width: 100%;
+    height: 343px;
+    margin-top: 120px;
+    
+}
+.bootom-lift{
+    width: 1135px;
+    height: 452px;
+    border-radius: 20px;
+    background: #EDF2F4; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    flex-wrap: wrap;
+    /* gap: 200px; */
+    z-index: 2000;
+
+}
+.btn2 >button{
+    max-width: 253px;
+    width: 100%;
+height: 60px;
+border-radius: 20px;
+background: #FF0000;
+font-family: Lalezar;
+font-size: 24px;
+font-weight: 400;
+line-height: 37.61px;
+text-align: center;
+color: #FFFFFF;
+display: flex;
+align-items: center;
+justify-content: center;
+border: none;
+margin-top: 40px;
+cursor: pointer;
+margin-left: 10px;
+}
+.bottom-right >img{
+
+}
+.bottom-right{
+    padding: 0 20px;
+}
+.bottom-right >h1{
+    max-width: 525px;
+    width: 100%;
+    height: 189px;
+    font-family: Lalezar;
+font-size: 48px;
+font-weight: 400;
+line-height: 60px;
+text-align: left;
+color: #FF0000;
+padding: 0 10px;  
+}
+.bottom-right >p{
+    max-width: 648px;
+    width: 100%;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.36px;
+text-align: left;
+color: #000000;
+padding: 0 10px;
+margin-top: -40px;
+    
+}
+.alt >img{
+  position: absolute;
+  margin-top: -290px;
+  z-index: -100000;
+  margin-left: -380px;
+}
