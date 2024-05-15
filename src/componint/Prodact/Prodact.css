@@ -37,7 +37,7 @@ align-items: center;
 justify-content: center;
 
 }
-.cart>img{
+.cart a >img{
     max-width: 250px;
 height: 250px;
 width: 100%;

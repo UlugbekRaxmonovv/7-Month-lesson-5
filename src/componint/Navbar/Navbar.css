@@ -8,11 +8,13 @@
     scroll-behavior: smooth;
 }
 header{
-    position: static;
+    position: fixed;
     top: 0;
     left: 0;
     right: 0;
     box-shadow: 2px 2px 8px 2px rgb(234, 234, 234);
+    z-index: 200000;
+    background-color: white;
 }
 .container{
     max-width: 1240px;

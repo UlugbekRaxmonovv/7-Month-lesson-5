@@ -1,23 +1,20 @@
 import { useState } from 'react'
 import Navbar from './componint/Navbar/Navbar'
 import './App.css'
-import Bootom from './componint/Bottom/Bootom'
-import Main from './componint/Main/Main'
-import Prodact from './componint/Prodact/Prodact'
-import {useGetProductsQuery} from './componint/content/prodactApi'
-import BootomTop from './componint/BootomTop/BootomTop'
-import Footer from './componint/Footer/Footer'
-
+import { Route,Routes } from 'react-router-dom'
+import Home from './pages/Home/Home'
+import SingleRoute from './pages/SingleRout/SingleRoute'
+import Contact from './pages/Contact/Contact'
 function App() {
-  const {data,isLoading,error,isError} = useGetProductsQuery()
   return (
     <>
 <Navbar/>
-<Main/>
-<Prodact data={data?.products}/>
-<Bootom/>
-<BootomTop/>
-<Footer/>
+<Routes>
+<Route path="/" element={<Home/>} />
+<Route path="/product/:id" element={<SingleRoute/>} />
+<Route path="/contact" element={<Contact/>} />
+</Routes>
+
     </>
   )
 }

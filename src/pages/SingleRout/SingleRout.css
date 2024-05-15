@@ -1,0 +1,247 @@
+.singli_rout{
+    margin-top: 120px;
+    padding: 60px 0;
+    display: flex;
+    align-items: self-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.all_alt{
+    max-width: 518px;
+    width: 100%;
+    height: 444px;
+    border: 1px solid #ECECEC;
+    border-radius: 50px;
+    overflow: hidden;
+    
+}
+.all_alt_img{
+    transition: all .5s linear;
+    max-width: 518px;
+    width: 100%;
+    height: 444px;
+    border: 1px solid #ECECEC;
+    border-radius: 50px;
+    overflow: hidden;
+}
+.all_alt_img:hover{
+    transform: scale(1.04);
+    border: 1px solid #ECECEC;
+}
+.img_{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.img_row >img{
+    max-width: 118px;
+    padding: 10px 10px;
+    width: 100%;
+    height: 118px;
+    border-radius: 17px ;
+    border: 2px ;
+    border: 2px solid #A2D2C9;
+    transition: all .5s linear;
+    
+}
+.img_row >img:hover{
+    transform: scale(1.05);
+
+}
+.p-1 >p{
+    width: 79.84px;
+    height: 30px;
+    padding: 6px 11.63px 6px 12px;
+    border-radius: 5px;
+    background: #FDE0E9;
+    font-family: Quicksand;
+font-size: 14px;
+font-weight: 700;
+line-height: 14px;
+color:  #F74B81;
+display: flex;
+align-items: center;
+
+    
+}
+.sinli_now >h1{
+    max-width: 444.48px;
+    width: 100%;
+    height: 98px; 
+    font-family: Quicksand;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+color: #253D4E;
+padding: 10px 0;
+
+    
+}
+.star{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+}
+.star-all >svg{
+    color: yellow;
+}
+.star-all >p{
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: right;
+    color: #B6B6B6;
+    
+}
+
+
+
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.price-all >h1{
+    font-family: Quicksand;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: left;
+    color: #3BB77E;
+    
+}
+.price-all >span{
+    font-family: Quicksand;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 12px;
+    text-align: left;
+    color: #FDC040;
+    
+}
+.price-all >p{
+    font-family: Quicksand;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: #B6B6B6;
+    
+}
+.sinli_now >p{
+    max-width: 466.5px;
+    width: 100%;
+    height: 69px;
+    font-family: Lato;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #7E7E7E;
+    padding: 10px 0;
+
+}
+.sizi{
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+    gap: 20px;
+}
+.sizi-all{
+    width: 51.41px;
+    height: 32px;
+    top: 733.25px;
+    left: 957.77px;
+    padding: 7px 8.66px 8px 9px;
+    border-radius: 5px ;
+    background: #3BB77E;
+    text-align: center;
+    
+}
+.sizi-all >p{
+    font-family: Lato;
+font-size: 14px;
+color: #7E7E7E;
+
+}
+
+.column{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.span-link{
+    width: 90px;
+    height: 50px;
+    top: 795.25px;
+    left: 817.5px;
+    gap: 0px;
+    border-radius: 5px ;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    border: 2px solid #3BB77E;    
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+.span-son>button{
+    border: none;
+    background-color: white !important;
+}
+
+.kart{
+    max-width: 159.59px;
+    width: 100%;
+    height: 50px;
+    top: 795.25px;
+    left: 916.2px;
+    padding: 15px 19.66px 15px 20px;
+    border-radius: 5px;
+    background: #3BB77E;
+    display: flex;
+    align-items: center;
+    gap: 10px;   
+}
+.kart-all>svg{
+    width: 16px;
+height: 16px;
+color: #FFFFFF;
+
+}
+.kart-all >p{
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.layk{
+    width: 50px;
+    height: 50px;
+    padding: 16px 0px 0px 0px;
+    border-radius: 5px;
+    border: 1px 0px 0px 0px;
+    border: 1px solid #F1F1F1  ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.layk >svg{
+    display: flex;
+    align-items: center;
+    margin-top: -12px;
+    
+}

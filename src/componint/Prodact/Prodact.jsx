@@ -1,5 +1,6 @@
 import React from 'react';
 import './Prodact.css'
+import { Link } from 'react-router-dom';
 
 const Prodact = ({data}) => {
     return (
@@ -11,7 +12,9 @@ const Prodact = ({data}) => {
                     <div className="btn1">
                     sale !
                     </div>
+                    <Link to={`/product/${el.id}`}>
                     <img src={el.images[0]} alt="" />
+                    </Link>
                     <div className="gap">
                         <h1>{el.title}</h1>
                         <p>LKR{el.price}</p>
