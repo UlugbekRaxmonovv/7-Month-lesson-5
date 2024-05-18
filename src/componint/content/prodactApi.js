@@ -14,12 +14,20 @@ export const productApi = api.injectEndpoints({
       query: (id) => ({ 
         url: `/products/${id}`, 
       }),
+    }),
+    getSorchProdact:build.query({
+      query:(params) =>({
+        url:`products/search`,
+        params
+      }),
+      providesTags:["Product"]
     })
   }),
 })
 
 export const {
   useGetProductsQuery,
-  useGetDetialProductQuery
+  useGetDetialProductQuery,
+  useGetSorchProdactQuery
   
 } = productApi
